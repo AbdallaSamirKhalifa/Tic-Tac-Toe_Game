@@ -37,6 +37,7 @@ namespace Draw
             button.BackColor=Color.Transparent;
             button.BackgroundImage = Resources.question_mark_96;
             button.Tag = "?";
+            button.Enabled = true;
         }
 
         void RestartGame()
@@ -57,6 +58,18 @@ namespace Draw
             GameStatus.GameCounter = 0;
             GameStatus.GameOver = false;
             lblWinner.Text = "In Progress";
+        }
+        void DisableButtons()
+        {
+            btn1.Enabled = false;
+            btn2.Enabled = false;
+            btn3.Enabled = false;
+            btn4.Enabled = false;
+            btn5.Enabled = false;
+            btn6.Enabled = false;
+            btn7.Enabled = false;
+            btn8.Enabled = false;
+            btn9.Enabled = false;
         }
         bool CheckButton(Button btn1,Button btn2,Button btn3)
         {
@@ -100,6 +113,7 @@ namespace Draw
                     break;
             }
             MessageBox.Show("Game Over", "Game Over", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            DisableButtons();
         }
         void checkWinner()
         {
@@ -124,6 +138,7 @@ namespace Draw
 
         public void ChangeImage(Button btn)
         {
+            btn.Enabled = false;
             if (btn.Tag.ToString() != "?")
             {
                 MessageBox.Show("Wrong Choice", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
