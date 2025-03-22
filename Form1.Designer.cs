@@ -51,7 +51,7 @@
             this.label1.CausesValidation = false;
             this.label1.Font = new System.Drawing.Font("Mistral", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label1.Location = new System.Drawing.Point(139, 39);
+            this.label1.Location = new System.Drawing.Point(136, 39);
             this.label1.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(107, 71);
@@ -77,7 +77,7 @@
             this.lblTurn.CausesValidation = false;
             this.lblTurn.Font = new System.Drawing.Font("Mongolian Baiti", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTurn.ForeColor = System.Drawing.Color.FloralWhite;
-            this.lblTurn.Location = new System.Drawing.Point(64, 206);
+            this.lblTurn.Location = new System.Drawing.Point(56, 206);
             this.lblTurn.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.lblTurn.Name = "lblTurn";
             this.lblTurn.Size = new System.Drawing.Size(295, 64);
@@ -103,7 +103,7 @@
             this.lblWinner.CausesValidation = false;
             this.lblWinner.Font = new System.Drawing.Font("Mongolian Baiti", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblWinner.ForeColor = System.Drawing.Color.FloralWhite;
-            this.lblWinner.Location = new System.Drawing.Point(51, 362);
+            this.lblWinner.Location = new System.Drawing.Point(48, 362);
             this.lblWinner.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.lblWinner.Name = "lblWinner";
             this.lblWinner.Size = new System.Drawing.Size(308, 64);
