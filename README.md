@@ -1,1 +1,1 @@
-# A simple Tic-Tac-Toe (X/O) Game
+# A simple (Winforms) Tic-Tac-Toe (X/O) Game
